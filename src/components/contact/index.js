@@ -8,7 +8,6 @@ import Loader from 'react-loaders';
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['c', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']
-    const jobArray = ['I', 'd', 'o', 'n', 't', ' ', 'h', 'a', 'v', 'e', ' ', 'a', ' ', 'c', 'o', 'n', 't', 'a', 'c', 't', ' ', 'u', 's', '.']
 
     useEffect(() => {
         const timeout = setTimeout(() => {
