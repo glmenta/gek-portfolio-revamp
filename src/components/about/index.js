@@ -92,7 +92,9 @@ const About = () => {
             </p>
             </div>
             <div className='stage-cube-cont'>
+            <div className='hobbies-cont'>
 
+            </div>
             </div>
             <div className='projects-cont'>
                 <div>
