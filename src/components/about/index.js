@@ -85,7 +85,7 @@ const About = () => {
                 I am a passionate full stack developer mainly looking for a role in an engineering team for a med-tech company for an opportunity to utilize my background in healthcare and software development.
                 </p>
             <p align="LEFT">
-                I am a versatile, adaptable and team player with excellent communication skills.
+                I come from a non-traditional background in tech, as I've previously pursued a Bachelors of Science in Neurobiology, Physiology and Behavior from University of California, Davis.
             </p>
             <p>
                 If I had to define myself I would say that I am a man of many interests and hobbies! I love to immerse myself in different cultures, breakdance, listen to music and spend time with family and friends.
@@ -95,11 +95,6 @@ const About = () => {
             <div className='hobbies-cont'>
 
             </div>
-            </div>
-            <div className='projects-cont'>
-                <div>
-
-                </div>
             </div>
             <Loader type="pacman" />
         </div>

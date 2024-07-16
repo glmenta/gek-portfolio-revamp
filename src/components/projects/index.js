@@ -1,6 +1,7 @@
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Projects = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -27,6 +28,18 @@ const Projects = () => {
                 <p>
                     Here are some of the projects I have worked on. Feel free to check them out!
                 </p>
+                <div className='projects'>
+                    <div className='keebcraft'>
+                        Project1
+                        <NavLink></NavLink>
+                    </div>
+                    <div className='nostaljams'>
+                        Project2
+                    </div>
+                    <div className='animebnb'>
+                        Project3
+                    </div>
+                </div>
             </div>
         </div>
         </>
